@@ -23,7 +23,7 @@ setup(
     version='0.3.0',
     author='Sumit Chachra',
     author_email='chachra@tivix.com',
-    url='http://github.com/tivix/django-cron',
+    url='http://github.com/amfarrell/django-cron',
     description='Running python crons in a Django project',
     packages=find_packages(),
     long_description=long_description,
@@ -32,7 +32,6 @@ setup(
     install_requires=[
         'Django>=1.4.0',
         'South>=0.7.2',
-        'django-common-helpers>=0.5.1'
     ],
     test_suite='django_cron.tests',
     include_package_data=True,
